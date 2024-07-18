@@ -27,6 +27,7 @@
                     </ul>
                 </nav>
                 <!-- Add an image for the cart icon to access the cart history -->
+                 <!-- Add an image for the menu(to work in smaller screens) -->
 
             </div>
             <div class="row">
@@ -235,8 +236,29 @@
                     </ul>
                 </div>
             </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Easy Tutorials</p>
         </div>
        </div>
+
+
+
+    <!-- JavaScript for toggle Menu -->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+           if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                } 
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+     </script>
     
 </body>
 </html>
