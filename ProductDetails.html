@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products - RedStore</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header/ Navbar Section -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Badge.jpg" width="40px" alt="The logo of the website">
+                </div>
+        
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Account.html">Account</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Add an image for the cart icon to access the cart history -->
+                 <!-- Add an image for the menu(to work in smaller screens) -->
+
+            </div>
+            
+        </div>
+
+    <!-- single Product Details -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/Szobozlai.jpg" width="100%" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Home / Player</p>
+                    <h1>Dominic Szoboszlai</h1>
+                    <h4>Attacking Midfielder</h4>
+                    <select name="" id="">
+                        <option value="">Select Size</option>
+                        <option value="">XXL</option>
+                        <option value="">XL</option>
+                        <option value="">Small</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="#" class="btn"> Add To Cart</a>
+                    <h3>Product Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Id suscipit tempora blanditiis similique vitae laudantium eaque 
+                        illo consequuntur. Vel cumque ducimus laboriosam nam consectetur
+                         odio optio, voluptate fuga eum? Modi enim commodi similique consectetur?</p>
+                </div>
+            </div>
+        </div>
+
+
+
+     <!-- All Products -->
+     <div class="small-container">
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="images/Flag.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Away.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/YNWA.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Trent.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <p>$50.00</p>
+            </div>
+        </div>
+     </div>
+
+
+
+      <!-- Footer -->
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phones.</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Badge.jpg" alt=""> 
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nemo ipsum rerum, cum similique reiciendis unde.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Easy Tutorials</p>
+        </div>
+       </div>
+
+
+
+    <!-- JavaScript for toggle Menu -->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+           if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                } 
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+     </script>
+    
+</body>
+</html>
